@@ -72,6 +72,16 @@ typedef struct __apple_usb_context {
 #define CPID_APPLETV2     8930
 #define CPID_IPHONE42     8930
 #define CPID_IPHONE43     8930
+#define CPID_IPAD21	  8940
+#define CPID_IPAD22	  8940
+#define CPID_IPAD23	  8940
+#define CPID_IPAD24	  8942
+#define CPID_IPAD25	  8942
+#define CPID_IPAD26	  8942
+#define CPID_IPAD27	  8942
+#define CPID_IPOD5G       8942
+#define CPID_APPLETV31    8940
+#define CPID_APPLETV32	  8942
 
 #define BDID_UNKNOWN        -1
 #define BDID_IPHONE2G        0
@@ -86,6 +96,7 @@ typedef struct __apple_usb_context {
 #define BDID_APPLETV2       10
 #define BDID_IPHONE42        6
 #define BDID_IPHONE43        4
+#define BDID_IPAD25	     0A
 
 #define DEVICE_UNKNOWN      -1
 #define DEVICE_IPHONE2G      0
@@ -100,6 +111,7 @@ typedef struct __apple_usb_context {
 #define DEVICE_APPLETV2      9
 #define DEVICE_IPHONE42     10
 #define DEVICE_IPHONE43     11
+#define DEVICE_IPAD25	    12
 
 	enum {
 		kRecoveryMode1 = 0x1280,
