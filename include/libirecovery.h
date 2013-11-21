@@ -111,7 +111,13 @@ typedef struct __apple_usb_context {
 #define DEVICE_APPLETV2      9
 #define DEVICE_IPHONE42     10
 #define DEVICE_IPHONE43     11
-#define DEVICE_IPAD25	    12
+#define DEVICE_IPAD24	    12
+#define DEVICE_IPAD25	    13
+#define DEVICE_IPAD26	    14
+#define DEVICE_IPAD27	    15
+#define DEVICE_IPOD5G	    16
+#define DEVICE_APPLETV31    17
+#define DEVICE_APPLETV32    18
 
 	enum {
 		kRecoveryMode1 = 0x1280,
