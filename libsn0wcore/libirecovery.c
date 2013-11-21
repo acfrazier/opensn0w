@@ -1825,9 +1825,21 @@ irecv_error_t irecv_get_device(irecv_client_t client, irecv_device_t * device)
 		case BDID_IPOD4G:
 			device_id = DEVICE_IPOD4G;
 			break;
+			
+		case BDID_IPOD5G:
+			device_id = DEVICE_IPOD5G;
+			break;
 
 		case BDID_APPLETV2:
 			device_id = DEVICE_APPLETV2;
+			break;
+		
+		case BDID_APPLETV31;
+			device_id = DEVICE_APPLETV31;
+			break;
+		
+		case BDID_APPLETV32;
+			device_id = DEVICE_APPLETV32;
 			break;
 
 		case BDID_IPHONE42:
@@ -1837,7 +1849,35 @@ irecv_error_t irecv_get_device(irecv_client_t client, irecv_device_t * device)
 		case BDID_IPHONE43:
 			device_id = DEVICE_IPHONE43;
 			break;
-
+		
+		case BDID_IPAD21:
+			device_id = DEVICE_IPAD21;
+			break;
+		
+		case BDID_IPAD22:
+			device_id = DEVICE_IPAD22;
+			break;
+			
+		case BDID_IPAD23:
+			device_id = DEVICE_IPAD23;
+			break;
+		
+		case BDID_IPAD24:
+			device_id = DEVICE_IPAD24;
+			break;
+		
+		case BDID_IPAD25:
+			device_id = DEVICE_IPAD25;
+			break;
+		
+		case BDID_IPAD26:
+			device_id = DEVICE_IPAD25;
+			break;
+		
+		case BDID_IPAD27:
+			device_id = DEVICE_IPAD25;
+			break;
+			
 		default:
 			device_id = DEVICE_UNKNOWN;
 			break;
